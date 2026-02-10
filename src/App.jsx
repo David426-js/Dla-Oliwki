@@ -4,9 +4,9 @@ import { motion, AnimatePresence } from "framer-motion"
 const texts = [
   { text: "WSZYSTKIEGO", duration: 1300 },
   { text: "NAJLEPSZEGO", duration: 1200 },
-  { text: "Z OKAZJI URODZIŃ", duration: 1600 },
-  { text: "DLA MOJEJ PRZYJACIÓŁKI", duration: 2000 },
-  { text: "OLIWKII <3", duration: 3000 },
+  { text: "Z OKAZJI URODZIN", duration: 1600 },
+  { text: "DLA CIEBIEE", duration: 2000 },
+  { text: "OLIWKAA <3", duration: 3000 },
 ]
 
 // SERDUSZKA
@@ -106,7 +106,7 @@ function App() {
                 fontSize: `${h.size}rem`,
               }}
             >
-              {"♡"}
+              {"♡ "}
             </span>
           ))}
         </div>
