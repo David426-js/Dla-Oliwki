@@ -5,7 +5,7 @@ const isMobile = window.innerWidth < 768
 
 const texts = [
   { text: "WSZYSTKIEGO", duration: 2200 },
-  { text: "NAJLEPSZEGO Z OKAZJI URODZIN", duration: 2000 },
+  { text: "NAJLEPSZEGOO Z OKAZJI URODZIN", duration: 2000 },
   { text: "DLA CIEBIE", duration: 2200 },
   { text: "OLIWKOO <3", duration: 2600 },
 ]
