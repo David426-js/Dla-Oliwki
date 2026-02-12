@@ -5,9 +5,9 @@ const isMobile = window.innerWidth < 768
 
 const texts = [
   { text: "WSZYSTKIEGO", duration: 1600 },
-  { text: "NAJLEPSZEGOO Z OKAZJI URODZIN", duration: 2000 },
+  { text: "NAJLEPSZEGOO Z OKAZJI URODZIN", duration: 1600 },
   { text: "DLA CIEBIE", duration: 2000 },
-  { text: "OLIWKOO <3", duration: 2500 },
+  { text: "OLIWKOO <3", duration: 3000 },
 ]
 
 // SERDUSZKA
@@ -120,8 +120,8 @@ function App() {
             key={texts[index].text}
             className="text"
             initial={{ opacity: 0, scale: 0.85 }}
-            animate={{ opacity: 1, scale: 1 }}
-            exit={{ opacity: 0, scale: 1.15 }}
+            animate={{ opacity: 2, scale: 1 }}
+            exit={{ opacity: 0, scale: 1.00 }}
             transition={{ duration: 0.9 }}
           >
             {texts[index].text}
