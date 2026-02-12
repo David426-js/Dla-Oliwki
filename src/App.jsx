@@ -1,12 +1,13 @@
 import { useState, useEffect, useRef } from "react"
 import { motion, AnimatePresence } from "framer-motion"
 
+const isMobile = window.innerWidth < 768
+
 const texts = [
-  { text: "WSZYSTKIEGO", duration: 1300 },
-  { text: "NAJLEPSZEGO", duration: 1200 },
-  { text: "Z OKAZJI URODZIN", duration: 1600 },
-  { text: "DLA CIEBIEE", duration: 2000 },
-  { text: "OLIWKAA <3", duration: 3000 },
+  { text: "WSZYSTKIEGO", duration: 2200 },
+  { text: "NAJLEPSZEGO", duration: 2000 },
+  { text: "DLA MOJEJ PRZYJACIÓŁKI", duration: 2200 },
+  { text: "OLIWKII <3", duration: 2600 },
 ]
 
 // SERDUSZKA
@@ -121,7 +122,7 @@ function App() {
             initial={{ opacity: 0, scale: 0.85 }}
             animate={{ opacity: 1, scale: 1 }}
             exit={{ opacity: 0, scale: 1.15 }}
-            transition={{ duration: 0.6 }}
+            transition={{ duration: 0.9 }}
           >
             {texts[index].text}
           </motion.h1>
