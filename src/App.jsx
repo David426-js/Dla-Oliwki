@@ -4,10 +4,10 @@ import { motion, AnimatePresence } from "framer-motion"
 const isMobile = window.innerWidth < 768
 
 const texts = [
-  { text: "WSZYSTKIEGO", duration: 2200 },
-  { text: "NAJLEPSZEGOO Z OKAZJI URODZIN", duration: 2000 },
-  { text: "DLA CIEBIE", duration: 2200 },
-  { text: "OLIWKOO <3", duration: 2600 },
+  { text: "WSZYSTKIEGO", duration: 1600 },
+  { text: "NAJLEPSZEGOO Z OKAZJI URODZIN", duration: 1600 },
+  { text: "DLA CIEBIE", duration: 2000 },
+  { text: "OLIWKOO <3", duration: 2500 },
 ]
 
 // SERDUSZKA
