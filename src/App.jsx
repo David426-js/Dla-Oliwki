@@ -8,7 +8,7 @@ const texts = [
   { text: "NAJLEPSZEGOO Z OKAZJI", duration: 1600 },
     { text: "19stych URODZIN", duration: 1600 },
   { text: "DLA CIEBIE", duration: 2000 },
-  { text: "OLIWKOO <3", duration: 3000 },
+  { text: "OLIWKOO ♡", duration: 3000 },
 ]
 
 // SERDUSZKA
