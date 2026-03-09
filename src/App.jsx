@@ -9,6 +9,7 @@ const texts = [
        { text: "19stych URODZIN", duration: 2000 },
         { text: "DLA CIEBIE", duration: 2000 },
          { text: "OLIWKOO ♡", duration: 3000 },
+         { text: "Mam nadzieje że sie spodoba :3", duration: 3000 },
           { text: "Prezent od Davida, Nikoli, Agnieszki, Krzyśka i Patryka", duration: 3000 },
 ]
 
