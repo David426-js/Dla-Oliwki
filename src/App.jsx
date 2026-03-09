@@ -5,13 +5,14 @@ const isMobile = window.innerWidth < 768
 
 const texts = [
   { text: "WSZYSTKIEGO", duration: 2000 },
-  { text: "NAJLEPSZEGOO Z OKAZJI", duration: 2000 },
-    { text: "19stych URODZIN", duration: 2000 },
-  { text: "DLA CIEBIE", duration: 2000 },
-  { text: "OLIWKOO ♡", duration: 3000 },
+     { text: "NAJLEPSZEGOO Z OKAZJI", duration: 2000 },
+       { text: "19stych URODZIN", duration: 2000 },
+        { text: "DLA CIEBIE", duration: 2000 },
+         { text: "OLIWKOO ♡", duration: 3000 },
+          { text: "Prezent od Davida, Nikoli, Agnieszki, Krzyśka i Patryka", duration: 3000 },
 ]
 
-// SERDUSZKA
+// Konfetti
 const randomHearts = Array.from({ length: 120 }).map(() => ({
   top: Math.random() * 100,
   left: Math.random() * 100,
